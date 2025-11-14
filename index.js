@@ -12,7 +12,7 @@ app.listen(3000, () => console.log("Web server running on port 3000"));
 dotenv.config();
 
 // --- CONFIG STREAMERS ---
-const LIVES_CHANNEL = "1410353175906484385";
+const LIVES_CHANNEL = "1438973525770895401";
 
 // TEST : force le live même hors-ligne
 const FORCE_LIVE = true;
