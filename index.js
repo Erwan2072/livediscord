@@ -2,6 +2,12 @@
 import { Client, GatewayIntentBits, EmbedBuilder } from "discord.js";
 import fetch from "node-fetch";
 import dotenv from "dotenv";
+import express from "express";
+
+const app = express();
+app.get("/", (req, res) => res.send("Bot is running!"));
+app.listen(3000, () => console.log("Web server running on port 3000"));
+
 
 dotenv.config();
 
