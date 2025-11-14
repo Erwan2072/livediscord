@@ -1,0 +1,26 @@
+{
+  "name": "discord-twitch-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord qui annonce les lives Twitch avec viewers, jeu et heure de début",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.24.2",
+    "dotenv": "^16.6.1",
+    "node-fetch": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erwan2072/livediscord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erwan2072/livediscord/issues"
+  },
+  "homepage": "https://github.com/Erwan2072/livediscord#readme"
+}
