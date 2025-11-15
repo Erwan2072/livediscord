@@ -181,7 +181,7 @@ async function checkLive() {
 // ----------------------
 // BOT READY
 // ----------------------
-client.once("ready", () => {
+client.once("clientReady", () => {
   console.log(`Bot connecté en tant que ${client.user.tag} !`);
   checkLive();
   setInterval(checkLive, 60000);
